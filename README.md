@@ -1,0 +1,3 @@
+This repository contains my classwork for CSC 155 at Oakton community college. It is published for educational purposes only, and other students should read the LICENSE file before using it in any capacity.
+
+In no way should my publication of this classwork be interpreted as intent to allow or assist other students to cheat or plagiarize. Any person other than Willow Carlson-Huber (myself) who represents this work as their own has violated the terms of the license and is using my work illegally.
