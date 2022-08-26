@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/willow/Documents/Oakton/cpp/classwork'
+ 
+g++    -c -o example/main.o example/main.cpp
+g++ -o example/main example/main.o
+make: Leaving directory '/home/willow/Documents/Oakton/cpp/classwork'
+ 

@@ -1,0 +1,405 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-suse-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug 26 16:48:12 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /usr/lib64/jvm/java
+# environment
+QEMU_AUDIO_DRV = pa
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+WINDOWMANAGER = gnome
+# environment
+VSCODE_CWD = /home/willow
+# environment
+GPG_TTY = not a tty
+# environment
+WINDOWPATH = 2
+# environment
+MACHTYPE = x86_64-suse-linux
+# environment
+NVM_DIR = /home/willow/.nvm
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+PYTHONSTARTUP = /etc/pythonstart
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/willow/Documents/Oakton/cpp/classwork
+# environment
+HOST = willow-desktop
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MORE = -sl
+# environment
+HOSTNAME = willow-desktop
+# environment
+MAIL = /var/mail/willow
+# environment
+XNLSPATH = /usr/share/X11/nls
+# environment
+XDG_DATA_DIRS = /home/willow/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/willow/.nvm/versions/node/v16.16.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/willow/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+PROFILEREAD = true
+# environment
+SSH_ASKPASS = /usr/libexec/ssh/ssh-askpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+MANPATHISSET = yes
+# default
+.LOADED := 
+# environment
+FROM_HEADER = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/willow/Documents/Oakton/cpp/classwork
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = lessopen.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/gnupg/S.gpg-agent.ssh
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/willow/.nvm/versions/node/v16.16.0/bin
+# environment
+HISTSIZE = 1000
+# environment
+XDG_CONFIG_DIRS = /etc/xdg:/usr/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+LESSKEY = /usr/etc/lesskey.bin
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 6416
+# environment
+VENDOR = suse
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+XAUTHLOCALHOSTNAME = willow-desktop
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 1)
+artifacts = $(shell find . -name main.cpp | sed s/cpp/o/)
+# environment
+INPUT_METHOD = 
+# environment
+SDK_HOME = /usr/lib64/jvm/java
+# environment
+SESSION_MANAGER = local/willow-desktop:@/tmp/.ICE-unix/2835,unix/willow-desktop:/tmp/.ICE-unix/2835
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /home/willow/.nvm/versions/node/v16.16.0/share/man:/usr/local/man:/usr/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+JAVA_ROOT = /usr/lib64/jvm/java
+# environment
+LESS_ADVANCED_PREPROCESSOR = no
+# environment
+JAVA_BINDIR = /usr/lib64/jvm/java/bin
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-suse-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=local
+# makefile (from 'Makefile', line 2)
+objects = $(shell find . -name main.cpp | sed s/\.cpp//)
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/willow/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/willow/.nvm/versions/node/v16.16.0/bin:/home/willow/.cargo/bin:/home/willow/.local/bin:/home/willow/bin:/home/willow/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/willow/.local/bin:/usr/local/bin:/usr/bin:/bin:/home/willow/.cargo/bin:/home/willow/.local/bin:/home/willow/.cargo/bin:/home/willow/.local/bin:/home/willow/.cargo/bin:/home/willow/.local/bin:/home/willow/.cargo/bin:/home/willow/.local/bin
+# environment
+NIX_SSL_CERT_FILE = /etc/ssl/certs/ca-certificates.crt
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+OSTYPE = linux
+# environment
+INVOCATION_ID = 9fcf44fdbce84e59ba9d9a4edee6ff53
+# makefile (from 'Makefile', line 3)
+tests = $(shell find . -name test.sh)
+# environment
+USERNAME = willow
+# environment
+MINICOM = -c on
+# environment
+CPU = x86_64
+# environment
+LESSCLOSE = lessclose.sh %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XSESSION_IS_UP = yes
+# environment
+GTK_IM_MODULE = cedilla
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+HOSTTYPE = x86_64
+# environment
+LS_COLORS = no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tgz=00;31:*.arc=00;31:*.arj=00;31:*.taz=00;31:*.lha=00;31:*.lz4=00;31:*.lzh=00;31:*.lzma=00;31:*.tlz=00;31:*.txz=00;31:*.tzo=00;31:*.t7z=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.dz=00;31:*.gz=00;31:*.lrz=00;31:*.lz=00;31:*.lzo=00;31:*.xz=00;31:*.zst=00;31:*.tzst=00;31:*.bz2=00;31:*.bz=00;31:*.tbz=00;31:*.tbz2=00;31:*.tz=00;31:*.deb=00;31:*.rpm=00;31:*.jar=00;31:*.war=00;31:*.ear=00;31:*.sar=00;31:*.rar=00;31:*.alz=00;31:*.ace=00;31:*.zoo=00;31:*.cpio=00;31:*.7z=00;31:*.rz=00;31:*.cab=00;31:*.wim=00;31:*.swm=00;31:*.dwm=00;31:*.esd=00;31:*.asf=01;35:*.avi=01;35:*.bmp=01;35:*.cgm=01;35:*.dl=01;35:*.emf=01;35:*.flc=01;35:*.fli=01;35:*.flv=01;35:*.gif=01;35:*.gl=01;35:*.jpeg=01;35:*.jpg=01;35:*.m2v=01;35:*.m4v=01;35:*.mjpeg=01;35:*.mjpg=01;35:*.mkv=01;35:*.mng=01;35:*.mov=01;35:*.mp4=01;35:*.mp4v=01;35:*.mpeg=01;35:*.mpg=01;35:*.nuv=01;35:*.ogm=01;35:*.pbm=01;35:*.pcx=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.qt=01;35:*.rm=01;35:*.rmvb=01;35:*.svg=01;35:*.svgz=01;35:*.tga=01;35:*.tif=01;35:*.tiff=01;35:*.vob=01;35:*.webm=01;35:*.webp=01;35:*.wmv=01;35:*.xbm=01;35:*.xcf=01;35:*.xpm=01;35:*.xwd=01;35:*.yuv=01;35:*.ogv=01;35:*.ogx=01;35:*.aiff=00;32:*.ape=00;32:*.aac=00;32:*.au=00;32:*.flac=00;32:*.m4a=00;32:*.mid=00;32:*.midi=00;32:*.mka=00;32:*.mp3=00;32:*.mpc=00;32:*.ogg=00;32:*.ra=00;32:*.voc=00;32:*.wav=00;32:*.wma=00;32:*.wv=00;32:*.oga=00;32:*.opus=00;32:*.spx=00;32:*.xspf=00;32:
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -M -I -R
+# environment
+DESKTOP_SESSION = gnome
+# environment
+CONFIG_SITE = /usr/share/site/x86_64-pc-linux-gnu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = willow
+# environment
+QT_IM_SWITCHER = imsw-multi
+# environment
+AUDIODRIVER = pulseaudio
+# environment
+G_FILENAME_ENCODING = @locale,UTF-8,ISO-8859-15,CP1252
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2852
+# environment
+DISPLAY = :1
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = willow
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+NIX_PROFILES = /nix/var/nix/profiles/default /home/willow/.nix-profile
+# environment
+MANAGERPID = 2315
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6416
+# environment
+PAGER = less
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:2476
+# environment
+G_BROKEN_FILENAMES = 1
+# environment
+NVM_CD_FLAGS = 
+# environment
+JOURNAL_STREAM = 8:37468
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+XKEYSYMDB = /usr/X11R6/lib/X11/XKeysymDB
+# environment
+HOME = /home/willow
+# environment
+QT_IM_MODULE = xim
+# environment
+CSHEDIT = emacs
+# environment
+JDK_HOME = /usr/lib64/jvm/java
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-8c34e22c-1.70.2-main.sock
+# environment
+TERM = xterm
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+LS_OPTIONS = -N --color=tty -T 0
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# environment
+JRE_HOME = /usr/lib64/jvm/java
+# variable set hash-table stats:
+ 
+# Load=143/1024=14%, Rehash=0, Collisions=10/207=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2081, inode 9447950): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+example/main.o: example/main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'example/main'
+#  Last modified 2022-08-22 10:03:35.51059176
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+example/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-22 09:59:19.096118196
+#  File has been updated.
+#  Successfully updated.
+
+example/main: example/main.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'example/main'
+#  Last modified 2022-08-22 10:03:53.244146746
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 12):
+	g++ -o $@ $@.o
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-22 10:04:19.774473082
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	rm $(shell find -name \*.o) */main
+
+tests: example/test.sh example/main
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: example/main
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+example/test.sh:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'example/test'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	bash $@
+
+.PHONY: all example/test.sh
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/32=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 229 B / avg = 8 B
+# current buf: size = 8162 B / used = 229 B / count = 26 / avg = 8 B
+
+# strcache performance: lookups = 47 / hit rate = 44%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=0/47=0%
+# Finished Make data base on Fri Aug 26 16:48:12 2022
+
+ 
