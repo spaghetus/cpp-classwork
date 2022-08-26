@@ -30,8 +30,6 @@ int main(int argc, char const *argv[])
 		return 1;
 	}
 	long salary = std::stol(salary_str);
-	long sal_cents = salary % 100;
-	long sal_dollars = salary / 100;
 
 	long bonus = (seniority <= 5) ? 10*seniority : 20*seniority;
 
@@ -42,14 +40,22 @@ int main(int argc, char const *argv[])
 	char sales_str[100];
 	while (true) {
 		cin.getline(sales_str, 100);
-		long sales = std::stol(sales_str);
-		long sales_cents = sales % 100;
+		long sales;
+		try {
+			sales = std::stol(sales_str);
+		} catch (std::invalid_argument const& e) {
+			return 0;
+		}
 		long sales_dollars = sales / 100;
 		long commission = (sales_dollars < 5001) ?
 			0 :
 			(sales_dollars < 10001) ?
 				sales * 0.03 :
 				sales * 0.06 ;
+		long total_pay = sales + bonus + salary;
+		long total_dollars = total_pay / 100;
+		long total_cents = total_pay % 100;
+		cout << std::to_string(total_dollars) << "." << std::to_string(total_cents) << endl;
 	}
 
 	/* code */
